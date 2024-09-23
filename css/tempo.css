@@ -1,0 +1,45 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    display: flex;
+    height: 80px;
+    background-color: aquamarine;
+    border: solid;
+    flex-wrap: nowrap;
+    justify-content: center;
+    box-shadow: 0 0 10px
+}
+.seta{
+    text-align: start;
+    position: fixed;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: -95px;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(119, 119, 119); 
+}
+.caixa2{
+    color: #dfdcdc;
+    text-align: center;
+    border-radius: 10px;   
+    box-shadow: 1px 0px 10px;
+    border: solid;
+    border-color: black;
+    width: 420px;
+    height: 250px;
+    background-color: rgb(68, 106, 93)
+}
+footer{
+    text-align: center;
+    background-color: aquamarine;
+    border: solid;
+    width: 100%;
+    position: fixed;
+    margin: auto;
+    bottom: 0;
+}

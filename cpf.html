@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API - CPF</title>
+    <link rel="stylesheet" href="css/cpf.css">
+</head>
+<body>
+    <header>
+        <h2 class="texto"> Consulta CPF </h2>
+    </header>
+        <a href="index.html" class="seta"><h3> &#8617 </h3></a>
+    <br>
+    <main>
+        <fieldset>
+            <h1 style="color: white;"> Digite seu CPF </h1>
+            <div id="imagem"></div>
+            <div id="nome" style="color: white;"></div>
+            <div id="sobrenome" style="color: white;"></div>
+            <div id="cidade" style="color: white;"></div>
+            <div id="pais" style="color: white;"></div>
+            <br>
+            <input type="number" style="border-radius: 7px;" id="valor" placeholder="CPF">
+            <div id="erro"></div>
+            <br>
+            <button onclick="buscar()"> Buscar </button>
+        </fieldset>
+    </main>
+
+    <footer>
+        <h3> Site feito por Caio André </h3>
+    </footer>
+    
+    <script src="cpf.js"></script>
+</body>
+</html>

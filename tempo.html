@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempo</title>  
+    <link rel="stylesheet" href="css/tempo.css">
+    <!-- Link do site pro negocio pegar as informações -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <header>
+        <h2 class="texto"  style="margin-top: 27px;"> Previsão do Clima </h2>
+    </header>
+    <a href="index.html" class="seta"><h3> &#8617 </h3></a>
+    <br><br><br>
+    <nav>
+        <div class="caixa2">
+            <h1> Previsão do tempo </h1>
+            <p style="margin-top: -30px; color: black;">_____________________________________________________</p>
+            <br>
+            <h3> Digite o nome de uma cidade</h3>
+            <input type="text" id="city" style="border-radius: 7px;">
+            <button onclick="getWeather()" style="border-radius: 5px;"> Pesquisar </button>
+            <br><br>
+            <p id="temperatura"> Aguarde... </u>
+        </div>
+    </nav>
+        
+    <footer>
+        <h3> Site feito por Caio André </h3>
+    </footer>
+    
+    <script src="tempo.js"></script>
+</body>
+</html>

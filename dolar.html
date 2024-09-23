@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fazer a pagina atualizar a cada 10 segundos -->
+    <meta http-equiv='refresh' content="5">
+    <link rel="stylesheet" href="css/dolar.css">
+    <title>Valor do Dólar</title>
+</head>
+
+<body>
+    <header>
+        <h2 class="texto" style="margin-top: 27px;"> Cotação do Dólar </h2>
+    </header>
+    <a href="index.html" class="seta"><h3> &#8617 </h3></a>
+    
+    <nav>
+        <div class="caixona">
+            <h2 class="valor"> Valor do Dólar:</h2>
+
+            <div class="algo">
+                <br>
+
+                <div class="valor1">
+                    <h3> - Valor atual: </h3>
+                    <p id="valorDolar"></p>
+                </div>
+
+                <div class="valor2">
+                    <h3>- Maior valor do dia: </h3>
+                    <p id="valorMaiorDolar"></p>
+                </div>
+
+                <div class="valor3">
+                    <h3> - Menor valor do dia: </h3>
+                    <p id="valorMenorDolar"></p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br><br>
+    <nav>
+        <img src="img/eua.png" alt="" class="eua">
+        <span style="font-size:100px;  margin-left: 150px;"> &#8594; </span>
+        <img src="img/br.png" alt="" class="br">
+    </nav>
+
+    <footer>
+        <h3> Site feito por Caio André </h3>
+    </footer>
+
+    <script src="dolar.js"></script>
+</body>
+</html>

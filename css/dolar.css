@@ -1,0 +1,82 @@
+header{
+    display: flex;
+    height: 80px;
+    background-color: aquamarine;
+    border: solid;
+    flex-wrap: nowrap;
+    justify-content: center;
+    box-shadow: 0 0 10px
+}
+.seta{
+    text-align: start;
+    position: fixed;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: -95px;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+body{
+    background-color: rgb(119, 119, 119);     
+}
+.br{
+    margin-left: 150px;
+}
+.caixona{
+    margin-top: 100px;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
+    border: solid;
+    width: 600px;
+    height: 220px;
+    background-color: rgb(31, 95, 74);
+}
+.algo{
+    display: flex;
+}
+.valor{
+    background-color: rgb(74, 214, 167);
+    margin-left: 190px;
+    box-shadow: 0 0 20px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+}
+.valor1{
+    background-color: rgb(74, 214, 167);
+    box-shadow: 0 0 20px;
+    margin-left: 30px;
+    text-align: center;
+    width: 150px;
+    border-radius: 20px;
+}
+.valor2{
+    background-color: rgb(74, 214, 167);
+    box-shadow: 0 0 20px;
+    margin-left: 30px;
+    text-align: center;
+    width: 150px;
+    border-radius: 20px;
+}
+.valor3{
+    background-color: rgb(74, 214, 167);
+    box-shadow: 0 0 20px;
+    margin-left: 30px;
+    text-align: center;
+    width: 150px;
+    border-radius: 20px;
+}
+footer{
+    text-align: center;
+    background-color: aquamarine;
+    border: solid;
+    width: 100%;
+    position: fixed;
+    margin: auto;
+    bottom: 0;
+}
